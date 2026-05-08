@@ -38,7 +38,7 @@
   "dependencies": {
     "@istanbuljs/schema": "^0.1.2",
     "glob": "^13.0.6",
-    "minimatch": "^10.2.2"
+    "minimatch": ">=10.2.5"
   },
   "devDependencies": {
     "c8": "^9.1.0",
@@ -46,5 +46,11 @@
   },
   "engines": {
     "node": "20 || >=22"
+  },
+  "overrides": {
+    "minimatch": ">=10.2.5"
+  },
+  "resolutions": {
+    "minimatch": ">=10.2.5"
   }
 }
