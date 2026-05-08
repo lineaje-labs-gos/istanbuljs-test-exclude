@@ -1,6 +1,6 @@
 {
   "name": "test-exclude",
-  "version": "8.0.0",
+  "version": "8.0.0-lineaje-01",
   "description": "test for inclusion or exclusion of paths using globs",
   "main": "index.js",
   "files": [
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/istanbuljs/test-exclude.git"
+    "url": "https://github.com/lineaje-labs-gos/istanbuljs-test-exclude"
   },
   "keywords": [
     "exclude",
@@ -25,6 +25,12 @@
   ],
   "author": "Ben Coe <ben@npmjs.com>",
   "license": "ISC",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/istanbuljs/test-exclude/issues"
   },
